@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Tales of a 10-12th Grade Something"
+  author: "Saruman"
+  date: "15/3/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - the-ruins.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
